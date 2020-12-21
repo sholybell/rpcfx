@@ -1,0 +1,8 @@
+server:
+  port: 8081
+  profiles:
+    active: true
+
+rpcfx:
+  aspect:
+    enabled: false

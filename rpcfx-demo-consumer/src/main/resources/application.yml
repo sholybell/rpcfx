@@ -1,0 +1,16 @@
+server:
+  port: 8082
+  profiles:
+    active: true
+
+logging:
+  level:
+    root: info
+  path: "./logs"
+
+
+rpcfx:
+  fallback: true
+  aspect:
+    #关闭此选项将开启自动生成接口代理对象
+    enabled: true
